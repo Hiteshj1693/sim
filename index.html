@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./resources/images/flipkart_icon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./resources/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Flipkart</title>
+</head>
+
+<body>
+    <div class="navigation" title="Header">
+        <div class="element">
+            <img src="./resources/images/logo.png" alt="Flipkart Logo" class="logo">
+            <div class="nav-search">
+                <input placeholder="Search for products,brands and more" type="text" class="search-input" />
+                <button type="submit" class="search-icon-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+        <div class="element">
+            <button class="login-button">Login</button>
+            <button class="seller-button">Become a Seller</button>
+            <button type="menu" class="more-btn">More<i class="fa-solid fa-angle-down rotate"></i>
+            </button>
+            <button class="cart-btn"><span><i class="fa-solid fa-cart-shopping"></i></span>Cart</button>
+        </div>
+    </div>
+
+    <!-- Category -->
+
+    <div class="category">
+        <div class="cat-item">
+            <img src="./resources/images/topoffers.webp" alt="Top Offers" />
+            <p>Top Offers</p>
+        </div>
+        <div class="cat-item">
+            <img src="./resources/images/grocery.webp" alt="Top Offers" />
+            <p>Grocery</p>
+        </div>
+        <div class="cat-item">
+            <img src="./resources/images/mobiles.webp" alt="Top Offers" />
+            <p>Mobiles</p>
+        </div>
+        <div class="cat-item">
+            <img src="./resources/images/fashion.webp" alt="Top Offers" />
+            <p>Fashion<i class="fa-solid fa-angle-down rotate"></i></p>
+        </div>
+        <div class="cat-item">
+            <img src="./resources/images/electronics.webp" alt="Top Offers" />
+            <p>Electronics<i class="fa-solid fa-angle-down rotate"></i></p>
+        </div>
+        <div class="cat-item">
+            <img src="./resources/images/home.webp" alt="Top Offers" />
+            <p>Home<i class="fa-solid fa-angle-down rotate"></i></p>
+        </div>
+        <div class="cat-item">
+            <img src="./resources/images/appliances.webp" alt="Top Offers" />
+            <p>Appliances<i class="fa-solid fa-angle-down rotate"></i></p>
+        </div>
+        <div class="cat-item">
+            <img src="./resources/images/travel.webp" alt="Top Offers" />
+            <p>Travel</p>
+        </div>
+        <div class="cat-item">
+            <img src="./resources/images/beauty.webp" alt="Top Offers" />
+            <p>Beauty, Toys & More<i class="fa-solid fa-angle-down rotate"></i></p>
+        </div>
+    </div>
+
+    <!-- Deals of the Day -->
+    <!-- <div class="prod-main">
+        <div class="product">
+            <div class="product-section-1" style="width: 80%; overflow: auto">
+                <div class="section-title">
+                    <p class="title-text">Deals of the day</p>
+                    <p>
+                        <i class="fa-regular fa-clock"></i><span style="padding: 0px 7px">22:07:36 Left</span>
+                    </p>
+                    <button type="button" class="sec-button" style="position: relative">
+                        VIEW ALL
+                    </button>
+                </div>
+
+
+                <div class="imgset" style="display: flex; white-space: nowrap">
+                    <div class="prod-img">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/s/g/l/m-kso-urb-2006-fs-ks074fsclaslmft-sky-killer-original-imah7kzxbuhfbjf7.jpeg?q=70"
+                            class="prod-img" alt="" />
+                        <p class="deal-text">Wrogon</p>
+                        <p class="deal-text-o">60-80% OFF</p>
+                        <p>Knockout Deals</p>
+                    </div>
+                    <div class="prod-img">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/k/m/u/10-2401-10-faxian-brown-original-imah7uv4grm9qr7p.jpeg?q=70"
+                            class="prod-img" alt="" />
+                        <p class="deal-text">Top Offers</p>
+                        <p class="deal-text-o">Min. 70% Off</p>
+                    </div>
+
+                    <div class="prod-img">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/m/x/o/xxl-nyra-cut-rayon-anarkali-kurta-2-sakshi-designer-original-imagphswjstubg5h.jpeg?q=70"
+                            class="prod-img" alt="" />
+                        <p class="deal-text">Kurta Sets</p>
+                        <p class="deal-text-o">Min. 70% Off</p>
+                    </div>
+                    <div class="prod-img">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/s/g/l/m-kso-urb-2006-fs-ks074fsclaslmft-sky-killer-original-imah7kzxbuhfbjf7.jpeg?q=70"
+                            class="prod-img" alt="" />
+                        <p class="deal-text">Wrogon</p>
+                        <p class="deal-text-o">60-80% OFF</p>
+                    </div>
+
+                    <div class="prod-img">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/suitcase/9/c/o/-original-imah5wr3phs2vcgn.jpeg?q=70"
+                            class="prod-img" alt="" />
+                        <p class="deal-text">Aristocrat, Safari & more</p>
+                        <p class="deal-text-o">60-80% OFF</p>
+                    </div>
+                    <div class="prod-img">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/sweatshirt/a/w/8/m-kottywomensweatshirt193-kotty-original-imah7p4hwchrkgy5.jpeg?q=70"
+                            class="prod-img" alt="" />
+                        <p class="deal-text">FortCollins, Wildraft & more</p>
+                        <p class="deal-text-o">Under ₹ 499</p>
+                    </div>
+                </div>
+            </div>
+            <div class="add-img" style="padding: 0px 0px 0px 5px">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/530/810/image/7830c35461b969a4.jpeg?q=20"
+                    class="add-img" alt="Addvertise" />
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <div class="product-container">
+        <div class="products-section">
+            <div class="section-header">
+                <p class="header-text">
+                    Deals of the day
+                    <span class="countdown-timer">
+                        <i class="fa-regular fa-clock"></i>
+                        <span class="time-remaining"> 22: 07: 36 Left</span>
+                    </span>
+                </p>
+                <button type="button" class="view-all-btn">VIEW ALL</button>
+            </div>
+            <div class="product-list">
+                <div class="product-item">
+                    <div class="item-image">
+                        <img src="images/Wrong-UCB.png" alt="Shirt photo" />
+                    </div>
+                    <div class="item-title">Wrong, UCB...</div>
+                    <div class="item-discount">60-80% Off</div>
+                    <div class="item-category">T-shirts, Shirts, Jackets</div>
+                </div>
+                <div class="product-item">
+                    <div class="item-image"><img src="images/Shoes.png" alt="" /></div>
+                    <div class="item-title">Shoes</div>
+                    <div class="item-discount">Min. 70% Off</div>
+                    <div class="item-category">Men's Ethnic Shoes, Sandals...</div>
+                </div>
+                <div class="product-item">
+                    <div class="item-image">
+                        <img src="images/kurta-sets.png" alt="" />
+                    </div>
+                    <div class="item-title">Kurta Sets</div>
+                    <div class="item-discount">Min. 70% Off</div>
+                    <div class="item-category">Festive Collection</div>
+                </div>
+                <div class="product-item">
+                    <div class="item-image"><img src="images/suitcase.png" alt="" /></div>
+                    <div class="item-title">Aristocrat, Safari & more</div>
+                    <div class="item-discount">From ₹2,4999</div>
+                    <div class="item-category">Suitcase combos</div>
+                </div>
+                <div class="product-item">
+                    <div class="item-image"><img src="images/skechers.png" alt="" /></div>
+                    <div class="item-title">Asics, Skechers</div>
+                    <div class="item-discount">Min 55% Off</div>
+                    <div class="item-category">Men's Shoes</div>
+                </div>
+                <div class="product-item">
+                    <div class="item-image">
+                        <img src="images/fortcollens.png" alt="" />
+                    </div>
+                    <div class="item-title">Fortcollens, Wildcrafts</div>
+                    <div class="item-discount">Under ₹499</div>
+                    <div class="item-category">Jacket, Sweatshirts</div>
+                </div>
+                <div class="product-item">
+                    <div class="item-image">
+                        <img src="images/women-shoes.png" alt="" />
+                    </div>
+                    <div class="item-title">Women's Shoes</div>
+                    <div class="item-discount">Min 50% Off</div>
+                    <div class="item-category">Super offers</div>
+                </div>
+            </div>
+        </div>
+        <div class="advertisement">
+            <img src="images/add_image.png" class="advertisement-image" alt="An image of some advertisement." />
+        </div>
+    </div> -->
+
+
+
+    <!--  -->
+
+    <div class="main-container">
+        <div class="product-container">
+            <div class="products-section">
+                <div class="section-header">
+                    <p class="header-text">
+                        Deals of the day
+                        <span class="countdown-timer">
+                            <i class="fa-regular fa-clock"></i>
+                            <span class="time-remaining"> 22: 07: 36 Left</span>
+                        </span>
+                    </p>
+                    <button type="button" class="view-all-btn">VIEW ALL</button>
+                </div>
+                <div class="product-list">
+                    <div class="product-item">
+                        <div class="item-image">
+                            <img src="images/Wrong-UCB.png" alt="Shirt photo" />
+                        </div>
+                        <div class="item-title">Wrong, UCB...</div>
+                        <div class="item-discount">60-80% Off</div>
+                        <div class="item-category">T-shirts, Shirts, Jackets</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="item-image"><img src="images/Shoes.png" alt="" /></div>
+                        <div class="item-title">Shoes</div>
+                        <div class="item-discount">Min. 70% Off</div>
+                        <div class="item-category">Men's Ethnic Shoes, Sandals...</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="item-image">
+                            <img src="images/kurta-sets.png" alt="" />
+                        </div>
+                        <div class="item-title">Kurta Sets</div>
+                        <div class="item-discount">Min. 70% Off</div>
+                        <div class="item-category">Festive Collection</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="item-image"><img src="images/suitcase.png" alt="" /></div>
+                        <div class="item-title">Aristocrat, Safari & more</div>
+                        <div class="item-discount">From ₹2,4999</div>
+                        <div class="item-category">Suitcase combos</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="item-image"><img src="images/skechers.png" alt="" /></div>
+                        <div class="item-title">Asics, Skechers</div>
+                        <div class="item-discount">Min 55% Off</div>
+                        <div class="item-category">Men's Shoes</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="item-image">
+                            <img src="images/fortcollens.png" alt="" />
+                        </div>
+                        <div class="item-title">Fortcollens, Wildcrafts</div>
+                        <div class="item-discount">Under ₹499</div>
+                        <div class="item-category">Jacket, Sweatshirts</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="item-image">
+                            <img src="images/women-shoes.png" alt="" />
+                        </div>
+                        <div class="item-title">Women's Shoes</div>
+                        <div class="item-discount">Min 50% Off</div>
+                        <div class="item-category">Super offers</div>
+                    </div>
+                </div>
+            </div>
+            <div class="advertisement">
+                <img src="images/add_image.png" class="advertisement-image" alt="An image of some advertisement." />
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="product-container">
+            <div class="products-section">
+                <div class="section-header">
+                    <p class="header-text">
+                        Books and Music Instruments
+                    </p>
+                    <button type="button" class="view-all-btn">VIEW ALL</button>
+                </div>
+                <div class="product-list">
+                    <div class="product-item">
+                        <div class="item-image">
+                            <img src="images/Wrong-UCB.png" alt="Shirt photo" />
+                        </div>
+                        <div class="item-title">Wrong, UCB...</div>
+                        <div class="item-discount">60-80% Off</div>
+                        <div class="item-category">T-shirts, Shirts, Jackets</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="item-image"><img src="images/Shoes.png" alt="" /></div>
+                        <div class="item-title">Shoes</div>
+                        <div class="item-discount">Min. 70% Off</div>
+                        <div class="item-category">Men's Ethnic Shoes, Sandals...</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="item-image">
+                            <img src="images/kurta-sets.png" alt="" />
+                        </div>
+                        <div class="item-title">Kurta Sets</div>
+                        <div class="item-discount">Min. 70% Off</div>
+                        <div class="item-category">Festive Collection</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="item-image"><img src="images/suitcase.png" alt="" /></div>
+                        <div class="item-title">Aristocrat, Safari & more</div>
+                        <div class="item-discount">From ₹2,4999</div>
+                        <div class="item-category">Suitcase combos</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="item-image"><img src="images/skechers.png" alt="" /></div>
+                        <div class="item-title">Asics, Skechers</div>
+                        <div class="item-discount">Min 55% Off</div>
+                        <div class="item-category">Men's Shoes</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="item-image">
+                            <img src="images/fortcollens.png" alt="" />
+                        </div>
+                        <div class="item-title">Fortcollens, Wildcrafts</div>
+                        <div class="item-discount">Under ₹499</div>
+                        <div class="item-category">Jacket, Sweatshirts</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="item-image">
+                            <img src="images/women-shoes.png" alt="" />
+                        </div>
+                        <div class="item-title">Women's Shoes</div>
+                        <div class="item-discount">Min 50% Off</div>
+                        <div class="item-category">Super offers</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- <div class="prod-main">
+        <div class="product">
+            <div class="product-section-1" style="width: 80%; overflow: auto">
+                <div class="section-title">
+                    <p class="title-text">Deals of the day</p>
+                    <p>
+                        <i class="fa-regular fa-clock"></i><span style="padding: 0px 7px">22:07:36 Left</span>
+                    </p>
+                    <button type="button" class="sec-button" style="position: relative">
+                        VIEW ALL
+                    </button>
+                </div>
+    
+                <div class="imgset" style="display: flex; white-space: nowrap">
+                    <div class="prod-img">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/s/g/l/m-kso-urb-2006-fs-ks074fsclaslmft-sky-killer-original-imah7kzxbuhfbjf7.jpeg?q=70"
+                            class="prod-img" alt="" />
+                        <p class="deal-text">Wrogon</p>
+                        <p class="deal-text-o">60-80% OFF</p>
+                        <p>Knockout Deals</p>
+                    </div>
+                    <div class="prod-img">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/k/m/u/10-2401-10-faxian-brown-original-imah7uv4grm9qr7p.jpeg?q=70"
+                            class="prod-img" alt="" />
+                        <p class="deal-text">Top Offers</p>
+                        <p class="deal-text-o">Min. 70% Off</p>
+                    </div>
+    
+                    <div class="prod-img">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/m/x/o/xxl-nyra-cut-rayon-anarkali-kurta-2-sakshi-designer-original-imagphswjstubg5h.jpeg?q=70"
+                            class="prod-img" alt="" />
+                        <p class="deal-text">Kurta Sets</p>
+                        <p class="deal-text-o">Min. 70% Off</p>
+                    </div>
+                    <div class="prod-img">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/s/g/l/m-kso-urb-2006-fs-ks074fsclaslmft-sky-killer-original-imah7kzxbuhfbjf7.jpeg?q=70"
+                            class="prod-img" alt="" />
+                        <p class="deal-text">Wrogon</p>
+                        <p class="deal-text-o">60-80% OFF</p>
+                    </div>
+    
+                    <div class="prod-img">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/suitcase/9/c/o/-original-imah5wr3phs2vcgn.jpeg?q=70"
+                            class="prod-img" alt="" />
+                        <p class="deal-text">Aristocrat, Safari & more</p>
+                        <p class="deal-text-o">60-80% OFF</p>
+                    </div>
+                    <div class="prod-img">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/sweatshirt/a/w/8/m-kottywomensweatshirt193-kotty-original-imah7p4hwchrkgy5.jpeg?q=70"
+                            class="prod-img" alt="" />
+                        <p class="deal-text">FortCollins, Wildraft & more</p>
+                        <p class="deal-text-o">Under ₹ 499</p>
+                    </div>
+                </div>
+            </div>
+            <div class="add-img" style="padding: 0px 0px 0px 5px">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/530/810/image/7830c35461b969a4.jpeg?q=20" class="add-img"
+                    alt="Addvertise" />
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Books and Music Instruments -->
+    <!-- <div class="book-music-main">
+        <div class="book-music">
+            <div class="product-section-2">
+                <div class="section-title">
+                    <p class="title-text">Books and music Instruments</p>
+                    <p><span>Shop Now</span></p>
+                    <button type="button" class="sec-button">VIEW ALL</button>
+                </div>
+
+
+                <div class="imgset" style="display: flex; white-space: nowrap">
+                    <div class="prod-img">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/s/g/l/m-kso-urb-2006-fs-ks074fsclaslmft-sky-killer-original-imah7kzxbuhfbjf7.jpeg?q=70"
+                            class="prod-img" alt="" />
+                        <p class="deal-text">Wrogon</p>
+                        <p class="deal-text-o">60-80% OFF</p>
+                    </div>
+
+                    <div class="prod-img">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/s/g/l/m-kso-urb-2006-fs-ks074fsclaslmft-sky-killer-original-imah7kzxbuhfbjf7.jpeg?q=70"
+                            class="prod-img" alt="" />
+                        <p class="deal-text">Wrogon</p>
+                        <p class="deal-text-o">60-80% OFF</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Bootstrap JavaScript File -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
