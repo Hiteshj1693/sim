@@ -322,7 +322,7 @@ input:focus {
     max-height: 500px;
     overflow: hidden;
     /* Hide vertical overflow */
-    
+
     /* Divider between header and product list */
 }
 
@@ -339,6 +339,15 @@ input:focus {
     color: #1f1f1f;
     display: flex;
     align-items: center;
+}
+
+.sub-text {
+    display: flex;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    color: #8b8a8a;
+    word-spacing: 2px;
+    cursor: pointer;
 }
 
 .countdown-timer {
@@ -394,9 +403,9 @@ input:focus {
     /* Ensure items snap into place */
 }
 
-.product-item:hover {
+/* .product-item:hover {
     transform: scale(1.05);
-}
+} */
 
 .item-image img {
     width: 100%;
@@ -421,6 +430,13 @@ input:focus {
     font-size: 0.8rem;
     color: #8b8a8a;
     margin-top: 5px;
+}
+
+.shop-now {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    color: #8b8a8a;
 }
 
 .advertisement {
