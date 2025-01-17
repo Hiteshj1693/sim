@@ -1,0 +1,170 @@
+/* Base styles for large screens (default) */
+/* No specific changes needed here for the main screen unless explicitly required */
+
+/* Specific styles for the main screen (1848x968) */
+@media screen and (min-width: 1848px) and (max-width: 1920px) {
+    .navigation {
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+
+    .search {
+        width: 30vw;
+    }
+
+    .login-button,
+    .more-btn,
+    .cart-btn,
+    .seller-button {
+        font-size: 20px;
+        padding: 10px 15px;
+    }
+
+    .product-item {
+        width: 250px;
+        margin: 15px;
+    }
+
+    .advertisement {
+        flex-basis: 300px;
+    }
+}
+
+/* Extra-large screens (desktops larger than 1920px) */
+@media screen and (min-width: 1920px) {
+    .navigation {
+        padding: 0 60px;
+    }
+
+    .search {
+        width: 35vw;
+    }
+
+    .login-button,
+    .more-btn,
+    .cart-btn,
+    .seller-button {
+        font-size: 22px;
+        padding: 12px 18px;
+    }
+
+    .product-item {
+        width: 280px;
+        margin: 20px;
+    }
+}
+
+/* Laptops (1024px - 1848px) */
+@media screen and (max-width: 1848px) and (min-width: 1024px) {
+    .navigation {
+        padding: 0 40px;
+    }
+
+    .search {
+        width: 28vw;
+    }
+
+    .login-button,
+    .more-btn,
+    .cart-btn,
+    .seller-button {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+
+    .product-item {
+        width: 220px;
+        margin: 12px;
+    }
+}
+
+/* Tablets (768px - 1024px) */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .navigation {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0 20px;
+    }
+
+    .search {
+        width: 60%;
+    }
+
+    .login-button,
+    .more-btn,
+    .cart-btn,
+    .seller-button {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .product-item {
+        width: 180px;
+    }
+
+    .advertisement {
+        flex-basis: 250px;
+    }
+}
+
+/* Mobile devices (480px - 768px) */
+@media screen and (max-width: 768px) and (min-width: 480px) {
+    .navigation {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 10px 15px;
+    }
+
+    .search {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    .login-button,
+    .more-btn,
+    .cart-btn,
+    .seller-button {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .product-item {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .advertisement {
+        flex-basis: 200px;
+    }
+}
+
+/* Small mobile devices (<480px) */
+@media screen and (max-width: 480px) {
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .search {
+        width: 90%;
+    }
+
+    .login-button,
+    .more-btn,
+    .cart-btn,
+    .seller-button {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .product-item {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .advertisement {
+        flex-basis: 180px;
+    }
+}

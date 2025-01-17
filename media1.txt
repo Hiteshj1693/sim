@@ -1,0 +1,143 @@
+/* Base styles for large screens (default) */
+/* You already have styles defined for desktops, so no changes needed here. */
+
+/* Media query for extra-large screens (desktops larger than 1600px) */
+@media screen and (min-width: 1600px) {
+    .navigation {
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+
+    .search {
+        width: 35vw;
+    }
+
+    .login-button,
+    .more-btn,
+    .cart-btn,
+    .seller-button {
+        font-size: 18px;
+    }
+}
+
+/* Media query for laptops (1024px - 1600px) */
+@media screen and (max-width: 1600px) and (min-width: 1024px) {
+    .navigation {
+        padding: 0 30px;
+    }
+
+    .search {
+        width: 28vw;
+    }
+
+    .product-item {
+        width: 220px;
+    }
+}
+
+/* Media query for tablets (768px - 1024px) */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .navigation {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0 20px;
+    }
+
+    .search {
+        width: 60%;
+    }
+
+    .login-button,
+    .more-btn,
+    .cart-btn,
+    .seller-button {
+        font-size: 14px;
+        width: 8vw;
+    }
+
+    .product-container {
+        gap: 15px;
+    }
+
+    .product-item {
+        width: 180px;
+    }
+
+    .advertisement {
+        flex-basis: 250px;
+    }
+}
+
+/* Media query for mobile devices (480px - 768px) */
+@media screen and (max-width: 768px) and (min-width: 480px) {
+    .navigation {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 10px 15px;
+    }
+
+    .search {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    .login-button,
+    .more-btn,
+    .cart-btn,
+    .seller-button {
+        font-size: 12px;
+        width: auto;
+        padding: 5px 10px;
+    }
+
+    .product-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .product-item {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .advertisement {
+        flex-basis: 200px;
+    }
+}
+
+/* Media query for small mobile devices (less than 480px) */
+@media screen and (max-width: 480px) {
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .search {
+        width: 90%;
+    }
+
+    .login-button,
+    .more-btn,
+    .cart-btn,
+    .seller-button {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .product-container {
+        flex-direction: column;
+        gap: 5px;
+        overflow-x: hidden;
+    }
+
+    .product-item {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .advertisement {
+        flex-basis: 180px;
+    }
+}
